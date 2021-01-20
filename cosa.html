@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .univ {
+        display: block;
+        width: 100%;
+        margin: 3% auto;
+        font-size: 0.8em;
+        position: relative;
+      }
+
+      * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      .logo {
+        display: block;
+        width: 40%;
+        height: 130px;
+        margin: 0 1% 2% 0;
+        text-align: center;
+      }
+
+      .logo img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+
+      .head-left {
+        display: block;
+        width: 20%;
+        float: left;
+      }
+
+      .head-right {
+        display: block;
+        width: 75%;
+        float: right;
+        text-align: center;
+        font-weight: bold;
+      }
+      .encabezado {
+        width: 100%;
+        height: 200px;
+      }
+
+      .titulo {
+        font-weight: bold;
+      }
+
+      .container-data {
+        width: 100%;
+        height: 150px;
+      }
+
+      .data-left {
+        display: block;
+        width: 65%;
+        float: left;
+      }
+      .data-right {
+        display: block;
+        width: 35%;
+        float: right;
+      }
+
+      .tabla {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .tabla th {
+        border: 1px solid #000000;
+      }
+
+      .item-tabla {
+        border: 1px solid #000000;
+      }
+
+      .item-right {
+        text-align: end;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+      }
+      .item-last {
+        border: 1px solid #000;
+        font-weight: bold;
+      }
+
+      .container-total {
+        width: 25%;
+        height: 20px;
+        display: block;
+        float: right;
+      }
+      .total {
+        width: 100%;
+        border-collapse: collapse;
+        border-top: 1px solid #000;
+        font-weight: bold;
+      }
+
+      .tabla-firmas {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .table-foot {
+        border: 1px solid #000000;
+        height: 100px;
+        vertical-align: sub;
+      }
+      .foot {
+        border: 1px solid #000000;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="univ">
+      <div class="encabezado">
+        <div class="head-left logo">
+          <img
+            src="https://ik.imagekit.io/ak8cj9oxkf/clients-4_tQGfck4on.png"
+            alt="LOGO"
+          />
+        </div>
+
+        <div class="head-right">
+          <h1>CÁMARA DE COMERCIO DE MANTA</h1>
+          <p>RUC 1390116574001</p>
+          <p>AV. 2 #10-47 ENTRE CALLES 10 Y 11</p>
+          <p>Comprobante Diario#: 18</p>
+        </div>
+      </div>
+
+      <div class="container-data">
+        <div class="data-left">
+          <p><span class="titulo">Periodo:</span> &nbsp;&nbsp;enero 2021</p>
+          <p>
+            <span class="titulo">Fecha del Asiento:</span> &nbsp;&nbsp;Manta, 13
+            de enero del 2021
+          </p>
+          <p>
+            <span class="titulo">A favor:</span> &nbsp;&nbsp;MARIA RODRIGUEZ
+            PILOZO
+          </p>
+          <p>
+            <span class="titulo">Glosa:</span> &nbsp;&nbsp;Rol: PRIMERA QUINCENA
+            - Empleado: MARIA RODRIGUEZ PILOZO
+          </p>
+        </div>
+
+        <div class="data-right">
+          <p><span class="titulo">Asiento contable #:</span> &nbsp;&nbsp;507</p>
+          <p>
+            <span class="titulo">Fecha Emisión:</span> &nbsp;&nbsp;13/01/2021
+            15:45:37
+          </p>
+          <p>
+            <span class="titulo">A favor:</span> &nbsp;&nbsp;MARIA RODRIGUEZ
+            PILOZO
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <table class="tabla">
+          <tr>
+            <th>Código</th>
+            <th>Descripción</th>
+            <th>Debe</th>
+            <th>Haber</th>
+          </tr>
+          <tr>
+            <td class="item-tabla">5.1.1.02</td>
+            <td class="item-tabla">SUELDOS QUE NO SUPERAN LA BASE IMPONIBLE</td>
+            <td class="item-right">$452,50</td>
+            <td class="item-right">-</td>
+          </tr>
+          <tr>
+            <td class="item-tabla">5.1.1.03</td>
+            <td class="item-tabla">BENEFICIOS SOCIALES</td>
+            <td class="item-right">$54,98</td>
+            <td class="item-right">-</td>
+          </tr>
+          <tr>
+            <td class="item-tabla">5.1.1.03</td>
+            <td class="item-tabla">BENEFICIOS SOCIALES</td>
+            <td class="item-right">$37,71</td>
+            <td class="item-right">-</td>
+          </tr>
+          <tr>
+            <td class="item-tabla">5.1.1.03</td>
+            <td class="item-tabla">BENEFICIOS SOCIALES</td>
+            <td class="item-right">$16,42</td>
+            <td class="item-right">-</td>
+          </tr>
+          <tr>
+            <td class="item-tabla">5.1.1.03</td>
+            <td class="item-tabla">BENEFICIOS SOCIALES</td>
+            <td class="item-right">$18,85</td>
+            <td class="item-right">-</td>
+          </tr>
+          <tr>
+            <td class="item-tabla">5.1.1.03</td>
+            <td class="item-tabla">BENEFICIOS SOCIALES</td>
+            <td class="item-right">$37,69</td>
+            <td class="item-right">-</td>
+          </tr>
+          <tr>
+            <td class="item-tabla">1.2.2.04</td>
+            <td class="item-tabla">CX C.PRESTAMOS QUIROGRAFARIOS</td>
+            <td class="item-right">-</td>
+            <td class="item-right">$79,07</td>
+          </tr>
+          <tr>
+            <td class="item-tabla">2.1.3.01</td>
+            <td class="item-tabla">APORTES IESS PERSONAL /PATRONAL CCM</td>
+            <td class="item-right">-</td>
+            <td class="item-right">$42,76</td>
+          </tr>
+          <tr>
+            <td class="item-tabla">2.1.3.01</td>
+            <td class="item-tabla">APORTES IESS PERSONAL /PATRONAL CCM</td>
+            <td class="item-right">-</td>
+            <td class="item-right">$54,98</td>
+          </tr>
+          <tr>
+            <td class="item-tabla">2.1.4.02</td>
+            <td class="item-tabla">DECIMO TERCER SUELDO</td>
+            <td class="item-right">-</td>
+            <td class="item-right">$37,71</td>
+          </tr>
+          <tr>
+            <td class="item-tabla">2.1.4.03</td>
+            <td class="item-tabla">DECIMO CUARTO SUELDO</td>
+            <td class="item-right">-</td>
+            <td class="item-right">$16,42</td>
+          </tr>
+          <tr>
+            <td class="item-tabla">2.1.4.04</td>
+            <td class="item-tabla">VACACIONES POR PAGAR</td>
+            <td class="item-right">-</td>
+            <td class="item-right">$18,85</td>
+          </tr>
+          <tr>
+            <td class="item-tabla">2.1.4.01</td>
+            <td class="item-tabla">FONDOS DE RESERVAS</td>
+            <td class="item-right">-</td>
+            <td class="item-right">$37,69</td>
+          </tr>
+          <tr>
+            <td class="item-tabla">1.1.1.05</td>
+            <td class="item-tabla">CAJA EMPLEADO</td>
+            <td class="item-right">-</td>
+            <td class="item-right">$330,67</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td class="item-last">$618,15</td>
+            <td class="item-last">$618,15</td>
+          </tr>
+        </table>
+      </div>
+
+      <div style="margin-top: 20px">
+        <table class="tabla">
+          <tr>
+            <th>Cuenta</th>
+            <th>Doc</th>
+            <th>Referencia</th>
+            <th>Fecha</th>
+            <th>Beneficiario</th>
+            <th>Total</th>
+          </tr>
+          <tr>
+            <td>Caja Empleado</td>
+            <td>E-EF</td>
+            <td>-</td>
+            <td>13/1/2021</td>
+            <td>MARIA RODRIGUEZ PILOZO</td>
+            <td>$330,67</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="container-total">
+        <table class="total">
+          <tr>
+            <td>TOTAL:</td>
+            <td>$330,67</td>
+          </tr>
+        </table>
+      </div>
+
+      <div>
+        <table class="tabla-firmas">
+          <tr>
+            <td class="table-foot">Elaborado por</td>
+            <td class="table-foot">Pagado</td>
+            <td class="table-foot">Vto. Bueno</td>
+            <td class="table-foot">Vto. Bueno</td>
+            <td class="table-foot"></td>
+          </tr>
+          <tr>
+            <td class="foot">Dpto. Contabilidad</td>
+            <td class="foot">Tesorero</td>
+            <td class="foot">Presidente</td>
+            <td class="foot">Dir. Ejecutivo</td>
+            <td class="foot">Recibí Conforme</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

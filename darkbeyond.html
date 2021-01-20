@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      .container-encabezado {
+        display: flex;
+        width: 100%;
+        align-items: center;
+      }
+      .encabezado p {
+        font-size: 1.2rem;
+      }
+
+      .container-encabezado .logo {
+        width: 40%;
+      }
+
+      img {
+        width: 100%;
+      }
+      .encabezado h1 {
+        margin-bottom: 20px;
+      }
+
+      .container-encabezado .encabezado {
+        text-align: center;
+        width: 70%;
+      }
+
+      h2 {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .container-data {
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+      }
+
+      .titulo {
+        font-weight: bold;
+        font-size: 1.6rem;
+      }
+
+      .data {
+        font-size: 1.5rem;
+        margin: 0 10px;
+      }
+
+      table {
+        font-size: 1.2rem;
+      }
+      .tabla-detalle {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .table-container {
+        width: 100%;
+      }
+
+      .table-encabezado {
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+      }
+
+      .table-item {
+        text-align: end;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      .table-fact {
+        text-align: end;
+      }
+
+      .container-foot {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+
+      .container-foot table,
+      .container-foot th,
+      .container-foot td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      .container-tabla {
+        width: 40%;
+      }
+
+      .container-firm {
+        width: 25%;
+        text-align: center;
+        margin-left: 20px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+      }
+
+      .line {
+        border-top: 1px solid black;
+        width: 150px;
+      }
+
+      .art {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-encabezado">
+      <div class="logo item">
+        <img
+          src="https://ik.imagekit.io/ak8cj9oxkf/clients-4_tQGfck4on.png"
+          alt=""
+        />
+      </div>
+      <div class="encabezado item">
+        <h1>CÁMARA DE COMERCIO DE MANTA</h1>
+        <p>Matriz: AV. 2 #10-47 ENTRE CALLES 10 Y 11</p>
+        <p>Sucursal: AV. 2 #10-47 ENTRE CALLES 10 Y 11</p>
+        <p>Telf: 052621306 - 052626516 - Correo: cacoma@ccm.org.ec</p>
+        <p>RUC: 1390116574001</p>
+        <p>Obligado a llevar Contabilidad</p>
+        <p>Agente de Retención Nro. NAC-DNCRASC20-00000001</p>
+      </div>
+    </div>
+
+    <h2>FACTURA N: 001-002-000007868</h2>
+
+    <div class="container-data">
+      <div class="data">
+        <p class="full">
+          <span class="titulo">Fecha::</span> &nbsp;&nbsp;13/01/2021
+        </p>
+        <p class="full">
+          <span class="titulo">Nombre:</span> &nbsp;&nbsp;LUIS ALBERTO MOREIRA
+          VEGA
+        </p>
+        <p class="full">
+          <span class="titulo">Razón Social:</span> &nbsp;&nbsp;MOREIRA VEGA
+          LUIS ALBERTO
+        </p>
+        <p class="full">
+          <span class="titulo">Dirección:</span> &nbsp;&nbsp;AVDA.105 Y CALLE
+          108 ALTOS DE FP-COMPU
+        </p>
+        <p class="full">
+          <span class="titulo">Clave Acceso:</span>
+          &nbsp;&nbsp;1301202101139011657400120010020000078688687000018
+        </p>
+      </div>
+      <div class="data">
+        <p class="full">
+          <span class="titulo">Fecha Imp:</span> &nbsp;&nbsp;13/01/2021 15:46:09
+        </p>
+        <p class="full">
+          <span class="titulo">C.I / RUC:</span> &nbsp;&nbsp;1304688003001
+        </p>
+        <p class="full">
+          <span class="titulo">Teléfono:</span> &nbsp;&nbsp;52620989
+        </p>
+      </div>
+    </div>
+
+    <div class="table-container">
+      <table class="tabla-detalle">
+        <tr>
+          <th class="table-encabezado">CODIGO</th>
+          <th class="table-encabezado">DESCRIPCIÓN</th>
+          <th class="table-encabezado">CANT.</th>
+          <th class="table-encabezado">P UNIT.</th>
+          <th class="table-encabezado">DESC. %</th>
+          <th class="table-encabezado">TOTAL</th>
+        </tr>
+        <tr>
+          <td class="table-item">24</td>
+          <td class="table-item">PRESENTACION DE MEDIACION - # M21-107</td>
+          <td class="table-item">1,00</td>
+          <td class="table-item">50,00</td>
+          <td class="table-item">0,00</td>
+          <td class="table-item">50,0000</td>
+        </tr>
+        <tr>
+          <td class="table-fact">Subtotal 12%</td>
+          <td class="table-fact">Subtotal 0%</td>
+          <td class="table-fact">I.V.A 12%</td>
+          <td class="table-fact">Subtotal</td>
+          <td class="table-fact">Descuento</td>
+          <td class="table-fact titulo">TOTAL</td>
+        </tr>
+        <tr>
+          <td class="table-fact">0,00</td>
+          <td class="table-fact">50,00</td>
+          <td class="table-fact">0,00</td>
+          <td class="table-fact">50,00</td>
+          <td class="table-fact">0,00</td>
+          <td class="table-fact titulo">50,00</td>
+        </tr>
+      </table>
+
+      <div class="container-foot">
+        <div class="container-tabla">
+          <table style="width: 100%">
+            <tr>
+              <td>Efectivo:</td>
+              <td>50,00</td>
+            </tr>
+            <tr>
+              <td>Dinero Electrónico:</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Tarjeta débito/Tarjeta Crédito:</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Otros:</td>
+              <td>0,00</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="container-firm">
+          <div>
+            <div class="line"></div>
+            <p>Firma Autorizada</p>
+          </div>
+        </div>
+
+        <div class="container-firm">
+          <div>
+            <div class="line"></div>
+            <p>Recibí Conforme</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="art">
+      Según Art. 9 Numeral 5 de la ley de Régimen Tributario Interno, nos
+      encontramos exonerados del Impuesto a la Renta
+    </p>
+  </body>
+</html>
